@@ -37,3 +37,19 @@ local.properties
 *.iml
 .idea/
 captures/
+
+# Kotlin
+.kotlin
+
+# iOS
+**/build/
+xcuserdata
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
